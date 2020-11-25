@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeaturedWebinar">
+    <TextView
+        android:id="@+id/featured__webinar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Featured Webinars"
+        android:textSize="24sp"
+        android:fontFamily="@font/nunito_bold"
+        android:textColor="#ffffff"
+        android:layout_margin="16dp">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/featured_webinar_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/featured__webinar"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+    </androidx.recyclerview.widget.RecyclerView>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_height="wrap_content"
+        android:theme="@style/Widget.BottomNavigationView"
+        android:layout_width = "match_parent"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_navigation"
+        app:menu="@menu/bottom_navigation_menu"
+        app:itemTextColor="#000000"
+        android:background="#ffffff">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>

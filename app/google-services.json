@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "654199263700",
+    "firebase_url": "https://webinarbackendtrial.firebaseio.com",
+    "project_id": "webinarbackendtrial",
+    "storage_bucket": "webinarbackendtrial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654199263700:android:d9882e332ec8826f740641",
+        "android_client_info": {
+          "package_name": "com.example.android.webtalktrial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654199263700-li3b21h0ipoo91hf27t705b5db35gg0g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.webtalktrial",
+            "certificate_hash": "eda55e031f193c4ef1b73715b2493a833dc9bcfd"
+          }
+        },
+        {
+          "client_id": "654199263700-jtnll30fffu7udojfraun69lcvcjm6c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2QRTbttKvsmXZnvJInIapW1oe9G75UXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654199263700-jtnll30fffu7udojfraun69lcvcjm6c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

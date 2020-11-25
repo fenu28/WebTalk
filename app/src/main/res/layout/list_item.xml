@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/card_background"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <!--
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft= "16dp"
+                    android:layout_marginRight="16dp"
+                    android:scaleType="center"
+                    android:src="@mipmap/ic_launcher" />
+                   -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/WebinarName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:textSize="12sp"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/nunito_bold"
+                            android:textAllCaps="true"/>
+
+                        <TextView
+                            android:id="@+id/WebinarHost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:textSize="12sp"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/nunito_bold"
+                            android:textAllCaps="true"/>
+
+                        <TextView
+                            android:id="@+id/WebinarTopic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:fontFamily="@font/nunito_bold"
+                            android:maxLines="3"
+                            android:textAllCaps="true"
+                            android:textColor="#000000"
+                            android:textSize="12sp">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/WebinarDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:textSize="12sp"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/nunito_bold"
+                            android:textAllCaps="true">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/WebinarTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:textSize="12sp"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/nunito_bold"
+                            android:textAllCaps="true">
+                        </TextView>
+                </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="@android:color/darker_gray">
+        </View>
+        <TextView
+            android:id="@+id/clickDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "Click To See Details >"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:fontFamily="@font/nunito_bold"
+            android:textAllCaps="true">
+        </TextView>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background"
+        android:layout_margin="16dp"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@drawable/common_google_signin_btn_icon_light"
+        android:text="SIGN IN WITH GOOGLE"
+        android:textSize="16sp"
+        android:fontFamily="@font/nunito_bold"
+        android:drawablePadding="8dp">
+    </Button>
+</RelativeLayout>
